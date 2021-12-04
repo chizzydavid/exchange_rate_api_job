@@ -12,10 +12,10 @@ source ~/.venv/bin/activate
 
 # Step 3: 
 # Install app dependencies
-pip install --upgrade pip && pip install -r requirements.txt
+pip install --upgrade pip && pip install -r /home/ubuntu/xchange/requirements.txt
 
 # Step 4: 
 # Run application
 cd scripts
-python3 ./forex.py
+python3 /home/ubuntu/xchange/scripts/forex.py
 
